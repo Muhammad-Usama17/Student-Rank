@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../../CSS/Rank.css">
+        <title>2nd Year - 1st Term - Math</title>
+    </head>
+    <body id="page">
+        <div id="mySidepanel" class="sidepanel">
+            <a class="dropdown-btn" onclick="mobileDropdown6()">1st Communications & Computer <i class="fa fa-caret-down"></i></a>
+            <div id="dropdown-container6">
+                <a href="../../../1st/Total/index.html">Total</a>
+                <a class="dropdown-btn" onclick="mobileDropdown7()">1st Term <i class="fa fa-caret-down"></i></a>
+                <div id="dropdown-container7">
+                    <a href="../../../1st/1st Term/index.html">Total</a>
+                    <a href="../../../1st/1st Term/HTML/Electronics Engineering Fundamentals.html">Electronics Engineering Fundamentals</a>
+                    <a href="../../../1st/1st Term/HTML/Electrical Circuts.html">Electrical Circuts</a>
+                    <a href="../../../1st/1st Term/HTML/Programming.html">Programming</a>
+                    <a href="../../../1st/1st Term/HTML/Civil & Mechanical Engineering.html">Civil & Mechanical Engineering</a>
+                    <a class="dropdown-btn" onclick="mobileDropdown9()">Math <i class="fa fa-caret-down"></i></a>
+                    <div id="dropdown-container9">
+                        <a href="../../../1st/1st Term/HTML/Math.html">Math - 1st Term</a>
+                        <a href="../../../1st/Total/Math/Math.html">Math - Total</a>
+                    </div>
+                    <a href="../../../1st/1st Term/HTML/Engineering Legislations.html">Engineering Legislations</a>
+                </div>
+                <a class="dropdown-btn" onclick="mobileDropdown8()">2nd Term <i class="fa fa-caret-down"></i></a>
+                <div id="dropdown-container8">
+                    <a href="../../../1st/2nd Term/index.html">Total</a>
+                    <a href="../../../1st/2nd Term/HTML/Electronics.html">Electronics</a>
+                    <a href="../../../1st/2nd Term/HTML/Electrical Circuts.html">Electrical Circuts</a>
+                    <a href="../../../1st/2nd Term/HTML/Test.html">Test</a>
+                    <a href="../../../1st/2nd Term/HTML/Computer Applications.html">Computer Applications</a>
+                    <a class="dropdown-btn" onclick="mobileDropdown10()">Math <i class="fa fa-caret-down"></i></a>
+                    <div id="dropdown-container10">
+                        <a href="../../../1st/2nd Term/HTML/Math.html">Math - 2nd Term</a>
+                        <a href="../../../1st/Total/Math/Math.html">Math - Total</a>
+                    </div>
+                    <a href="../../../1st/2nd Term/HTML/English Language.html">English Language</a>
+                </div>
+            </div>
+            <a class="dropdown-btn active" onclick="mobileDropdown1()">2nd Communications & Computer <i class="fa fa-caret-down"></i></a>
+            <div id="dropdown-container">
+                <a href="../../Total/index.html">Total</a>
+                <a class="dropdown-btn active" onclick="mobileDropdown2()">1st Term <i class="fa fa-caret-down"></i></a>
+                <div id="dropdown-container2">
+                    <a href="../index.html">Total</a>
+                    <a href="Computer Organization.html">Computer Organization</a>
+                    <a href="Electromagnetic Field's Fundamentals.html">Electromagnetic Field's Fundamentals</a>
+                    <a class="dropdown-btn active" onclick="mobileDropdown4()">Math <i class="fa fa-caret-down"></i></a>
+                    <div id="dropdown-container4">
+                        <a class="active">Math - 1st Term</a>
+                        <a href="../../Total/Math/Math.html">Math - Total</a>
+                    </div>
+                    <a href="Measurements.html">Measurements</a>
+                    <a href="Programming.html">Copmuter Programming</a>
+                    <a href="Project Management.html">Project Management</a>
+                </div>
+                <a class="dropdown-btn" onclick="mobileDropdown3()">2nd Term <i class="fa fa-caret-down"></i></a>
+                <div id="dropdown-container3">
+                    <a href="../../2nd Term/index.html">Total</a>
+                    <a href="../../2nd Term/HTML/Signals & Systems.html">Signals & Systems</a>
+                    <a href="../../2nd Term/HTML/Electronics.html">Electronics</a>
+                    <a href="../../2nd Term/HTML/Test.html">Test</a>
+                    <a href="../../2nd Term/HTML/Logic Circuits.html">Logic Circuits</a>
+                    <a class="dropdown-btn" onclick="mobileDropdown5()">Math <i class="fa fa-caret-down"></i></a>
+                    <div id="dropdown-container5">
+                        <a href="../../2nd Term/HTML/Math.html">Math - 2nd Term</a>
+                        <a href="../../Total/Math/Math.html">Math - Total</a>
+                    </div>
+                    <a href="../../2nd Term/HTML/Technical Reports.html">Technical Reports</a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar" id="navbar">
+            <div class="container" onclick="sideMenuBtn(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="links">
+                <div class="dropdown">
+                    <a class="dropbtn" id="dropbtn6" onclick="dropdown7()">1st Communications & Computer <i class="fa fa-caret-down"></i></a>
+                    <div class="dropdown-content" id="myDropdown6">
+                        <a href="../../../1st/Total/index.html">Total</a>
+                        <div class="dropdown" id="courseDropdown3">
+                            <a class="dropbtn" id="dropbtn7" onclick="dropdown8()">1st Term <i class="fa fa-caret-right"></i></a>
+                            <div class="dropdown-content" id="myDropdown7">
+                                <a href="../../../1st/1st Term/index.html">Total</a>
+                                <a href="../../../1st/1st Term/HTML/Electronics Engineering Fundamentals.html">Electronics Engineering Fundamentals</a>
+                                <a href="../../../1st/1st Term/HTML/Electrical Circuts.html">Electrical Circuts</a>
+                                <a href="../../../1st/1st Term/HTML/Programming.html">Programming</a>
+                                <a href="../../../1st/1st Term/HTML/Civil & Mechanical Engineering.html">Civil & Mechanical Engineering</a>
+                                <div class="dropdown" id="mathDropdown3">
+                                    <a class="dropbtn" id="dropbtn9" onclick="dropdown10()">Math <i class="fa fa-caret-right"></i></a>
+                                    <div class="dropdown-content" id="myDropdown9">
+                                        <a href="../../../1st/1st Term/HTML/Math.html">Math - 1st Term</a>
+                                        <a href="../../../1st/Total/Math/Math.html">Math - Total</a>
+                                    </div>
+                                </div>
+                                <a href="../../../1st/1st Term/HTML/Engineering Legislations.html">Engineering Legislations</a>
+                            </div>
+                        </div>
+                        <div class="dropdown" id="courseDropdown4">
+                            <a class="dropbtn" id="dropbtn8" onclick="dropdown9()">2nd Term <i class="fa fa-caret-right"></i></a>
+                            <div class="dropdown-content" id="myDropdown8">
+                                <a href="../../../1st/2nd Term/index.html">Total</a>
+                                <a href="../../../1st/2nd Term/HTML/Electronics.html">Electronics</a>
+                                <a href="../../../1st/2nd Term/HTML/Electrical Circuts.html">Electrical Circuts</a>
+                                <a href="../../../1st/2nd Term/HTML/Test.html">Test</a>
+                                <a href="../../../1st/2nd Term/HTML/Computer Applications.html">Computer Applications</a>
+                                <div class="dropdown" id="mathDropdown4">
+                                    <a class="dropbtn" id="dropbtn10" onclick="dropdown11()">Math <i class="fa fa-caret-right"></i></a>
+                                    <div class="dropdown-content" id="myDropdown10">
+                                        <a href="../../../1st/2nd Term/HTML/Math.html">Math - 2nd Term</a>
+                                        <a href="../../../1st/Total/Math/Math.html">Math - Total</a>
+                                    </div>
+                                </div>
+                                <a href="../../../1st/2nd Term/HTML/English Language.html">English Language</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn active" id="dropbtn" onclick="dropdown2()">2nd Communications & Computer <i class="fa fa-caret-down"></i></a>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="../../Total/index.html">Total</a>
+                        <div class="dropdown" id="courseDropdown1">
+                            <a class="dropbtn active" id="dropbtn2" onclick="dropdown3()">1st Term <i class="fa fa-caret-right"></i></a>
+                            <div class="dropdown-content" id="myDropdown2">
+                                <a href="../index.html">Total</a>
+                                <a href="Computer Organization.html">Computer Organization</a>
+                                <a href="Electromagnetic Field's Fundamentals.html">Electromagnetic Field's Fundamentals</a>
+                                <div class="dropdown" id="mathDropdown1">
+                                    <a class="dropbtn active" id="dropbtn4" onclick="dropdown5()">Math <i class="fa fa-caret-right"></i></a>
+                                    <div class="dropdown-content" id="myDropdown4">
+                                        <a class="active">Math - 1st Term</a>
+                                        <a href="../../Total/Math/Math.html">Math - Total</a>
+                                    </div>
+                                </div>
+                                <a href="Measurements.html">Measurements</a>
+                                <a href="Programming.html">Copmuter Programming</a>
+                                <a href="Project Management.html">Project Management</a>
+                            </div>
+                        </div>
+                        <div class="dropdown" id="courseDropdown2">
+                            <a class="dropbtn" id="dropbtn3" onclick="dropdown4()">2nd Term <i class="fa fa-caret-right"></i></a>
+                            <div class="dropdown-content" id="myDropdown3">
+                                <a href="../../2nd Term/index.html">Total</a>
+                                <a href="../../2nd Term/HTML/Signals & Systems.html">Signals & Systems</a>
+                                <a href="../../2nd Term/HTML/Electronics.html">Electronics</a>
+                                <a href="../../2nd Term/HTML/Test.html">Test</a>
+                                <a href="../../2nd Term/HTML/Logic Circuits.html">Logic Circuits</a>
+                                <div class="dropdown" id="mathDropdown2">
+                                    <a class="dropbtn" id="dropbtn5" onclick="dropdown6()">Math <i class="fa fa-caret-right"></i></a>
+                                    <div class="dropdown-content" id="myDropdown5">
+                                        <a href="../../2nd Term/HTML/Math.html">Math - 2nd Term</a>
+                                        <a href="../../Total/Math/Math.html">Math - Total</a>
+                                    </div>
+                                </div>
+                                <a href="../../2nd Term/HTML/Technical Reports.html">Technical Reports</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo">
+                <a class="logoHomeLink" href="../../../index.html"><img src="../../../Images/Logo (OSOS).png" alt="OSOS" class="ososLogo"></a>
+            </div>
+        </div>
+        
+        <h1 id="title">2nd Communications & Computer (1st Term)<br>Math</h1>
+        <hr class="init sep1">
+        <hr class="init sep2">
+        <h1 class="header">Search options<h1>
+        <hr class="underline">
+        <h1 class="title">Search by name</h1>
+        <section>
+            <div class="outer">
+                <input type="text" placeholder="Name" id="namein" onblur="focus_out1()">
+                <button onclick="name_search()" id="btn3" class="btn anim">Search</button>
+                <button onclick="name_search_all()" id="btn4" class="btn anim">Search all</button>
+                <pre class="note">*Hit Enter twice to search all*</pre>
+            </div>
+            <p id="suggest">Do you mean : <span id="suggest_name" onclick="name_search_suggest()"></span><span id="more_details"></span></p>
+            <p id="suggest_all">Do you mean : <span id="suggest_name_all" onclick="name_search_all_suggest()"></span><span id="more_details_all"></span></p>
+            <h2 id="error3"></h2>
+            <div id="nameSearchTbl">
+                <table>
+                    <tr>
+                        <td id="mes6">Name :</td>
+                        <td id="name3"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes13">B.N. :</td>
+                        <td id="bn1"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes7">Degree :</td>
+                        <td id="degree3"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes16">Percentage :</td>
+                        <td id="percentage1"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes20">Grade :</td>
+                        <td id="grade1"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes8">Rank :</td>
+                        <td id="rank3"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <table class="tbl" id="tbl1">
+                <tr>
+                    <th class="tbl_head rank">Rank</th>
+                    <th class="tbl_head grade">Grade</th>
+                    <th class="tbl_head percentage">Percentage</th>
+                    <th class="tbl_head deg">Degree</th>
+                    <th class="tbl_head bn">B.N.</th>
+                    <th class="tbl_head name_head">Name</th>
+                    <th class="num"></th>
+                </tr>
+            </table>
+        </section>
+        <hr class="mid">
+        <h1 class="title">Search by B.N.</h1>
+        <section>
+            <div class="outer">
+                <input type="number" placeholder="B.N." id="bnin" onblur="focus_out4()">
+                <button onclick="bn_search()" id="btn5" class="btn anim">Search</button>
+            </div>
+            <h2 id="error4"></h2>
+
+            <div id="bnSearchTbl">
+                <table>
+                    <tr>
+                        <td id="mes9">Name :</td>
+                        <td id="name4"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes10">B.N. :</td>
+                        <td id="bn2"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes11">Degree :</td>
+                        <td id="degree4"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes17">Percentage :</td>
+                        <td id="percentage2"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes21">Grade :</td>
+                        <td id="grade2"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes12">Rank :</td>
+                        <td id="rank4"></td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
+        <hr class="mid">
+        <h1 class="title">Search by rank</h1>
+        <section>
+            <div class="outer">
+                <input type="number" min="0" placeholder="Rank" id="rankin" onblur="focus_out2()">
+                <button onclick="rank_search()" id="btn2" class="btn anim">Search</button>
+            </div>
+            <h2 id="error2"></h2>
+
+            <div id="rankSearchTbl">
+                <table>
+                    <tr>
+                        <td id="mes3">Name :</td>
+                        <td id="name2"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes14">B.N. :</td>
+                        <td id="bn3"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes4">Degree :</td>
+                        <td id="degree2"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes18">Percentage :</td>
+                        <td id="percentage3"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes22">Grade :</td>
+                        <td id="grade3"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes5">Rank :</td>
+                        <td id="rank2"></td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
+        <hr class="mid">
+        <h1 class="title">Search by degree</h1>
+        <section>
+            <div class="outer">
+                <input type="number" min="0" placeholder="Degree" id="degree" onblur="focus_out3()">
+                <button onclick="degree_search()" id="btn" class="btn anim">Search</button>
+            </div>
+            <h2 id="error"></h2>
+
+            <div id="degSearchTbl">
+                <table>
+                    <tr>
+                        <td id="mes0">Name :</td>
+                        <td id="name"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes15">B.N. :</td>
+                        <td id="bn4"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes1">Degree :</td>
+                        <td id="degree1"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes19">Percentage :</td>
+                        <td id="percentage4"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes23">Grade :</td>
+                        <td id="grade4"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td id="mes2">Rank :</td>
+                        <td id="rank"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr class="mid sep1">
+        <hr class="sep2">
+        <h1 class="header">Show options<h1>
+        <hr class="underline">
+        <h1 class="title">Show by B.N.</h1>
+        <section>
+            <div class="outer">
+                <input type="number" min="0" placeholder="Initial B.N." id="initbnin" onblur="focus_out7()">
+                <input type="number" min="0" placeholder="Final B.N." id="finbnin" onblur="focus_out7()">
+                <button onclick="bn_show()" id="btn8" class="btn anim">Show</button>
+                <pre class="note" id="bnRange"></pre>
+            </div>
+            <h2 id="error7"></h2>
+            <table class="tbl" id="tbl4">
+                <tr>
+                    <th class="tbl_head rank">Rank</th>
+                    <th class="tbl_head grade">Grade</th>
+                    <th class="tbl_head percentage">Percentage</th>
+                    <th class="tbl_head deg">Degree</th>
+                    <th class="tbl_head bn">B.N.</th>
+                    <th class="tbl_head name_head">Name</th>
+                    <th class="num"></th>
+                </tr>
+            </table>
+        </section>
+        <hr class="mid">
+        <h1 class="title">Show by rank</h1>
+        <section>
+            <div class="outer">
+                <input type="number" min="0" placeholder="Initial rank" id="initrankin" onblur="focus_out5()">
+                <input type="number" min="0" placeholder="Final rank" id="finrankin" onblur="focus_out5()">
+                <button onclick="rank_show()" id="btn6" class="btn anim">Show</button>
+                <pre class="note" id="rankRange"></pre>
+            </div>
+            <h2 id="error5"></h2>
+            <table class="tbl" id="tbl2">
+                <tr>
+                    <th class="tbl_head rank">Rank</th>
+                    <th class="tbl_head grade">Grade</th>
+                    <th class="tbl_head percentage">Percentage</th>
+                    <th class="tbl_head deg">Degree</th>
+                    <th class="tbl_head bn">B.N.</th>
+                    <th class="tbl_head name_head">Name</th>
+                    <th class="num"></th>
+                </tr>
+            </table>
+        </section>
+        <hr class="mid">
+        <h1 class="title">Show by degree</h1>
+        <section>
+            <div class="outer">
+                <input type="number" min="0" placeholder="Initial degree" id="initdegin" onblur="focus_out6()">
+                <input type="number" min="0" placeholder="Final degree" id="findegin" onblur="focus_out6()">
+                <button onclick="degree_show()" id="btn7" class="btn anim">Show</button>
+                <pre class="note" id="degRange">*Degree range from 0 to 1500*</pre>
+            </div>
+            <h2 id="error6"></h2>
+            <table class="tbl" id="tbl3">
+                <tr>
+                    <th class="tbl_head rank">Rank</th>
+                    <th class="tbl_head grade">Grade</th>
+                    <th class="tbl_head percentage">Percentage</th>
+                    <th class="tbl_head deg">Degree</th>
+                    <th class="tbl_head bn">B.N.</th>
+                    <th class="tbl_head name_head">Name</th>
+                    <th class="num"></th>
+                </tr>
+            </table>
+        </section>
+        <hr class="mid">
+        <h1 class="title">Show all</h1>
+        <section id="showAll">
+            <div class="showAll">
+                <button onclick="bn_show_all()" id="btn9" class="btn showAllBtn anim">Show all (ordered by name)</button>
+                <button onclick="rank_show_all()" id="btn10" class="btn showAllBtn anim">Show all (ordered by rank)</button>
+                <button onclick="degree_show_all()" id="btn11" class="btn showAllBtn anim">Show all (ordered by degree)</button>
+            </div>
+            <div id="showAllClr">
+                <button id="btn12" class="btn showAllClrBtn anim" onclick="show_all_clear()">Clear</button>
+            </div>
+            <div id="showAllTbl">
+                <table class="tbl" id="tbl5">
+                    <tr>
+                        <th class="tbl_head rank">Rank</th>
+                        <th class="tbl_head grade">Grade</th>
+                        <th class="tbl_head percentage">Percentage</th>
+                        <th class="tbl_head deg">Degree</th>
+                        <th class="tbl_head bn">B.N.</th>
+                        <th class="tbl_head name_head">Name</th>
+                        <th class="num"></th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr class="fin">
+        
+
+        <script src="../JavaScript/Math.js"></script>
+    </body>
+</html>
